@@ -1,0 +1,17 @@
+1. Use the PSD template file to create your own banner background.
+
+2. Open the .FLA file and insert your banner background on the stage.
+
+3. In DelveMoviePlayer.as: edit the "channelId" variable with your Delve Channel ID string. (Line 53)
+
+4. Edit the alphaUp/alphaDown/alphaOver variables to change the hover effect of your "Restart w/sound" and "Mute" buttons (Line 134 - 137)
+
+5. Edit the color, size, and font of your "Restart w/sound" and "Mute" buttons (Line 142 - 144)
+
+6. Edit the loopDelay variable to determine how much time will elapse after the video ends before it loops back to the beginning. (Line 55)
+
+7. Save DelveMoviePlayer.as, then publish video-rectangle-300x250.fla in Flash.
+
+8. to test, upload to any external server via FTP. For security reasons, Limelight/Delve's Chromeless player permissions prohibit this SWF from executing as expected on a local directory.
+
+9. upload to OpenX or some other fancy ad serving system.
